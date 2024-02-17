@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ Global Blog</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- Barre de navigation -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">XYZ Global Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apropos">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- Ajoutez d'autres liens au besoin -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Ajouter la partie a propos -->
+
+  <!-- Section À propos -->
+
+  <section class="container my-5">
+    <div class="row align-items-center">
+
+      <!-- Image (optionnel) -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="xyz.png" class="img-fluid rounded-circle" alt="Notre Logo" width="400" height="400">
+      </div>
+
+      <!-- Texte de la section À propos -->
+      <div class="col-md-6 mt-3" id="apropos">
+        <h2 class="mb-4">À propos de nous</h2>
+        <p class="lead">
+            Fondé en 20XX, "XYZ Global Blog" a pour mission de partager des informations et des perspectives sur les
+            dernières tendances mondiales dans le domaine de "votre domaine d'activité".
+        </p>
+        <p>
+            Notre équipe internationale est dédiée à fournir des insights et des analyses approfondies pour aider nos
+            lecteurs à rester informés et à anticiper les évolutions futures du monde des affaires.
+  
+        </p>
+        <a href="#" class="btn btn-primary mt-3">Découvrez nos articles</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="container  my-5">
+    <div class="row">
+
+      <div class="col-md-8">
+        <!-- Contenu principal ici -->
+        <!-- Section Articles récents -->
+
+        <h2 class="mb-4">Articles récents</h2>
+        <div class="row">
+          <!-- Article 1 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Article 1.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Introduction à XYZ Global</h5>
+                <p class="card-text">Découvrez les bases de XYZ Global et son impact sur les marchés internationaux.
+                </p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Article 2.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Stratégies de croissance mondiale</h5>
+                <p class="card-text">Explorez les meilleures pratiques pour stimuler la croissance dans un marché mondial compétitif.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Article 3.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Innovation technologique chez XYZ Global</h5>
+                <p class="card-text">Découvrez comment XYZ Global intègre les dernières technologies pour rester à la pointe de l'industrie.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 4 -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="Article 4.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Responsabilité sociale chez XYZ Global</h5>
+                <p class="card-text">Découvrez comment XYZ Global s'engage socialement et contribue au bien-être de la communauté mondiale.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <!-- Sidebar ici -->
+        <h3>Catégories</h3>
+        <ul>
+          <li><a href="#">Technologie</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Entrepreneuriat</a></li>
+          <li><a href="#">Actualités</a></li>
+          <!-- Autres catégories -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Contact -->
+
+  <section class="container my-5" id="contact">
+    <div class="row">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2>Contactez-nous</h2>
+        <p class="lead">
+          Avez-vous des questions, des suggestions ou souhaitez-vous en savoir plus sur nos services? N'hésitez pas à
+          nous contacter. Notre équipe est là pour vous aider et vous guider.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <form action="your_server_script.php" method="post">
+          <div class="mb-3">
+            <label for="contactName" class="form-label">Nom complet</label>
+            <input type="text" class="form-control" id="contactName" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Adresse e-mail</label>
+            <input type="email" class="form-control" id="contactEmail" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Votre message</label>
+            <textarea class="form-control" id="contactMessage" rows="4" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-6 mb-3 mb-lg-0">
+          <h4>XYZ Global Blog</h4>
+          <p class="mb-0">Siège social : 123 Avenue Internationale, Ville, Pays</p>
+          <p>Email : contact@xyzglobal.com</p>
+          <p>Téléphone : +12 345 678 910</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Liens rapides</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Accueil</a></li>
+            <li><a href="#apropos" class="text-white">À propos</a></li>
+            <li><a href="#contact" class="text-white">Contact</a></li>
+            <!-- Ajoutez d'autres liens au besoin -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p class="mb-0">&copy; 2023 XYZ Global Blog. Tous droits réservés.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="bootstrap.bundle.min.js"></script>  
+</body>
+
+</html>
